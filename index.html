@@ -7,11 +7,10 @@
   <link rel="stylesheet" href="layout.css">
   <link rel="stylesheet" href="slider.css">
   <link rel="stylesheet" href="forms.css">
-
 </head>
 
 <body>
-<div class="book flex">
+<div class="book flex" id="capture">
   <section class="row-1 flex-inner">
     <div>
       <input placeholder="" value="Little Miss"/>
@@ -30,13 +29,16 @@
   </section>
 </div>
 
-<a class="chrome download" href="#" id="slide">Download<br/>Image</a>
-<a class="chrome credit" href="#"><img class="logo" src="img/margins-logo.png"/></a>
+<canvas id="screenshot"></canvas>
+
+<a class="chrome download" href="#" id="download">Download<br/>Image</a>
+<img class="logo chrome credit" src="img/margins-logo.png"/>
 
 <script src='lib/jquery.min.js'></script>
 <script src='lib/slick.min.js'></script>
 <script src='lib/TweenMax.min.js'></script>
 <script src='lib/TextPlugin.min.js'></script>
+<script src='lib/html2canvas.js'></script>
 <script src="missmeme.js"></script>
 
 </body>

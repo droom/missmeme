@@ -130,7 +130,7 @@
 .slick-prev,
 .slick-next {
   position: absolute;
-  bottom: 25px;
+  bottom: 0px;
   display: block;
   width: 20px;
   height: 20px;
@@ -141,8 +141,6 @@
   border: none;
   outline: none;
   background: transparent;
-  /*outline: 1px solid green;*/
-
 }
 
 .slick-prev:hover,

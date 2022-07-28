@@ -21,7 +21,6 @@ textarea {
 }
 
 :focus {
-  /*background: white;*/
   border: none;
   outline: none;
 }
@@ -45,12 +44,5 @@ textarea {
   left: 20px;
   bottom: 20px;
   opacity: 0.4;
-}
-
-.credit:hover{
-  opacity: 1;
-}
-
-.credit img{
   width: 30px;
 }

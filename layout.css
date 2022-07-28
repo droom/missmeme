@@ -1,21 +1,17 @@
 .book {
   margin: auto;
-  margin-top: 5vw;
+  margin-top: 40px;
   background: white;
   width: 600px;
   height: 600px;
-  padding: 25px 0 0 0;
+  padding: 25px 0 25px 0;
+  overflow: hidden;
   /*aspect-ratio: 1/1;*/
   /*max-width: 600px;*/
   border: 1px solid rgba(0,0,0,0.3);
   border-radius: 2px;
   box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.2), -1px 4px 7px rgba(0, 0, 0, 0.2);
 }
-
-/*.shelf{*/
-  /*padding: 0 0 90px 0;*/
-  /*margin: 0 0 90px 0;*/
-/*}*/
 
 .flex{
   display: flex;
@@ -27,6 +23,7 @@
 }
 
 section{
+  /*outline: 1px solid red;*/
 }
 section.row-1{
   flex-grow: 1;
