@@ -39,7 +39,9 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin: 0;
 }
+
 .slick-track:before {
   display: table;
   content: "";
@@ -139,6 +141,8 @@
   border: none;
   outline: none;
   background: transparent;
+  /*outline: 1px solid green;*/
+
 }
 
 .slick-prev:hover,
@@ -154,12 +158,12 @@
 .slick-prev:focus:before,
 .slick-next:hover:before,
 .slick-next:focus:before {
-  opacity: 1;
+  /*opacity: 1;*/
 }
 
 .slick-prev.slick-disabled:before,
 .slick-next.slick-disabled:before {
-  opacity: 1;
+  /*opacity: 1;*/
 }
 
 .slick-prev:before,
@@ -167,42 +171,44 @@
   font-family: arial;
   font-size: 50px;
   line-height: 1;
-  opacity: 1;
+  /*opacity: 0;*/
   color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: all 300ms ease;
+
 }
 
 .slick-prev {
   left: 10px;
   z-index: 999;
 }
-.slick-prev:before {
-  content: "←";
-  transition: all 300ms ease;
-  color: rgba(0, 0, 0, 0.25);
-}
-
-.slick-prev:hover:before {
-  color: rgba(0, 0, 0, 0.9);
-}
-
 .slick-next {
   right: 10px;
   z-index: 999;
 }
+
+.slick-prev:before {
+  content: "←";
+  color: black;
+  opacity: 0;
+}
+
 .slick-next:before {
   content: "→";
   position: absolute;
   right: 0;
-  color: rgba(0, 0, 0, 0.25);
-  transition: all 300ms ease;
+  color: black;
+  opacity: 0;
 }
 
-.slick-next:hover:before {
-  color: rgba(0, 0, 0, 0.9);
+
+.shelf:hover .slick-next:before{
+  color: black;
+  opacity: 1;
 }
 
-.slick-track {
-  margin: 0;
+.shelf:hover .slick-prev:before{
+  color: black;
+  opacity: 1;
 }
