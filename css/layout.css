@@ -4,6 +4,7 @@
   margin:         auto;
   background:     white;
   width:          600px;
+  min-width:      320px;
   padding:        25px 0 25px 0;
   overflow:       hidden;
   aspect-ratio:   1/1;
@@ -13,12 +14,18 @@
 
 @media (max-width: 610px){
   .book{
-    width:        95vw;
+    width:        100vw;
     box-shadow:   none;
-    margin:       auto;
+    /*margin:       auto;*/
     padding:      20px 0 30px 0;
   }
 }
+
+
+
+
+
+
 
 .flex{
   display: flex;
