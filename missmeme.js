@@ -5,7 +5,10 @@ $(document).ready(function(){
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		dots: false,
-		arrows: true
+		arrows: true,
+
+
+
 	});
 
 	$('.shelf').slick('slickGoTo', 2);
