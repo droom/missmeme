@@ -29,6 +29,7 @@ body {
   width: 100%;
 }
 
+
 small {
   font-family: "mm2";
   font-size: 20px;
@@ -37,4 +38,11 @@ small {
   margin: 10px auto;
   width: 100%;
   display: block;
+}
+
+@media (max-width: 610px){
+  small{
+    font-size: 13px;
+    letter-spacing: 0.08em;
+  }
 }

@@ -6,19 +6,19 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="The Little Miss Generator">
-
   <link rel="stylesheet" href="missmeme.css">
   <link rel="stylesheet" href="layout.css">
   <link rel="stylesheet" href="slider.css">
   <link rel="stylesheet" href="forms.css">
 </head>
 
-<body>
+<body class="flex-page">
+
 <div class="book flex" id="capture">
   <section class="row-1 flex-inner">
     <div>
-      <input placeholder="" value="Little Miss"/>
-      <textarea placeholder="" id="statement" name="statement" rows="2" cols="12"></textarea>
+      <input class="inline" placeholder="" value="Little Miss"/>
+      <textarea class="inline" placeholder="" id="statement" name="statement" rows="2" cols="12"></textarea>
     </div>
   </section>
   <section class="row-2">
@@ -33,9 +33,11 @@
   </section>
 </div>
 
-<canvas id="screenshot"></canvas>
+<div class="controls">
+  <!-- <input> -->
+</div>
 
-<a class="chrome download" href="#" id="download">Download<br/>Image</a>
+<!-- <a class="chrome download" href="#" id="download">Download<br/>Image</a> -->
 <img class="logo chrome credit" src="img/margins-logo.png"/>
 
 <script src='lib/jquery.min.js'></script>

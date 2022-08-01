@@ -1,35 +1,39 @@
+/*desktop*/
+
 .book {
-  margin: auto;
-  margin-top: 40px;
-  background: white;
-  width: 600px;
-  height: 600px;
-  padding: 25px 0 25px 0;
-  overflow: hidden;
-  /*aspect-ratio: 1/1;*/
-  /*max-width: 600px;*/
-  border: 1px solid rgba(0,0,0,0.3);
-  border-radius: 2px;
-  box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.2), -1px 4px 7px rgba(0, 0, 0, 0.2);
+  margin:         auto;
+  background:     white;
+  width:          600px;
+  padding:        25px 0 25px 0;
+  overflow:       hidden;
+  aspect-ratio:   1/1;
+  border:         1px solid rgba(0,0,0,0.3);
+  box-shadow:     -1px 1px 2px rgba(0, 0, 0, 0.2), -1px 4px 7px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 610px){
+  .book{
+    width:        95vw;
+    box-shadow:   none;
+    margin:       auto;
+  }
 }
 
 .flex{
   display: flex;
   flex-direction: column;
 }
+.flex-page{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
 .flex-inner{
   display: flex;
   align-items: middle;
 }
 
-section{
-  /*outline: 1px solid red;*/
-}
-section.row-1{
+section:nth-child(1){
   flex-grow: 1;
   align-items: center;
-}
-section.row-2{
-}
-section.row-3{
 }
