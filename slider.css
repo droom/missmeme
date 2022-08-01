@@ -152,17 +152,6 @@
   background: transparent;
 }
 
-.slick-prev:hover:before,
-.slick-prev:focus:before,
-.slick-next:hover:before,
-.slick-next:focus:before {
-  /*opacity: 1;*/
-}
-
-.slick-prev.slick-disabled:before,
-.slick-next.slick-disabled:before {
-  /*opacity: 1;*/
-}
 
 .slick-prev:before,
 .slick-next:before {
