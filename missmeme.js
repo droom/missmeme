@@ -22,10 +22,4 @@ $(document).ready(function(){
 			$('#statement').attr('rows', '2');
 		};
 	});
-
-
-
-
-
-
 });
