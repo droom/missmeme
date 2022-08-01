@@ -210,9 +210,11 @@
 }
 
 @media (max-width: 610px){
+.shelf:active .slick-next:before,
+.shelf:active .slick-prev:before,
 .shelf:hover .slick-next:before,
 .shelf:hover .slick-prev:before{
-  color: black;
+  color: white;
   opacity: 0;
 }
 }
