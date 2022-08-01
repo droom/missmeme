@@ -186,6 +186,22 @@
   z-index: 999;
 }
 
+
+@media (max-width: 610px){
+  .slick-prev {
+    left: 10px;
+    top: 190px;
+    z-index: 999;
+  }
+  .slick-next {
+    right: 10px;
+    top: 190px;
+    z-index: 999;
+  }
+
+}
+
+
 .slick-prev:before {
   content: "←";
   color: black;

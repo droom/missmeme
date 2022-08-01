@@ -20,7 +20,7 @@ input.inline{
   textarea.inline {
     font-family: "mm1";
     font-size: 38px;
-    line-height: 38px;
+    line-height: 40px;
     margin: 0 auto;
     width: 100%;
     padding: 0 10px;
@@ -31,6 +31,7 @@ input.inline{
 
   input.inline{
     height: 40px;
+    margin: 0 0 5px 0;
   }
 }
 
